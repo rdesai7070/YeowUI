@@ -1,4 +1,4 @@
-package com.example.riteshdesai.yeowui;
+package com.example.riteshdesai.yeowui.Fragments;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

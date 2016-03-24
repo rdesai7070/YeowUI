@@ -7,4 +7,5 @@
     <string name="one">HOME</string>
     <string name="two">QUICK TEST</string>
     <string name="three">HISTORY</string>
+    <string name="title_activity_add_url">add_url</string>
 </resources>
