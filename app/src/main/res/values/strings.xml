@@ -8,4 +8,6 @@
     <string name="two">QUICK TEST</string>
     <string name="three">HISTORY</string>
     <string name="title_activity_add_url">add_url</string>
+    <string name="title_activity_quick_test">QuickTest</string>
+    <string name="toolbar_title">Add New Domain</string>
 </resources>

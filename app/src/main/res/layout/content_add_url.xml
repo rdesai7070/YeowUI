@@ -47,14 +47,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ADD"
-        android:id="@+id/button"
-        android:layout_below="@+id/input_layout_provider"
+        android:id="@+id/add_url"
+        android:textSize="30dp"
+        android:background="@drawable/rounded_corner"
+        android:textColor="#ffffff"
+        android:backgroundTint="#FFAB40"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="15dp"
-        android:textSize="35dp"
-        android:background="#FFAB40"
-        android:textColor="#ffffff"/>
+        android:layout_below="@+id/input_layout_provider"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"/>
 
 </RelativeLayout>
