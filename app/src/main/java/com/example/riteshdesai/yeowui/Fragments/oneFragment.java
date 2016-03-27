@@ -1,6 +1,8 @@
 package com.example.riteshdesai.yeowui.Fragments;
 
 import android.content.Intent;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
@@ -35,7 +37,8 @@ public class oneFragment extends Fragment implements View.OnClickListener {
         super.onActivityCreated(savedInstanceState);
         add = (FloatingActionButton) getActivity().findViewById(R.id.add_fab);
         add.setOnClickListener(this);
-
+      //  add.setBackgroundTintList(ColorStateList.valueOf();
+        //add.setBackgroundColor(Color.parseColor("#F44336"));
     }
 
     @Override

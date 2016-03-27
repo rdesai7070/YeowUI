@@ -19,7 +19,7 @@
         </activity>
         <activity
             android:name=".Activity.add_url"
-
+            android:parentActivityName=".Activity.MainActivity"
             android:label="@string/title_activity_add_url"
             android:theme="@style/MyMaterialTheme">
         </activity>

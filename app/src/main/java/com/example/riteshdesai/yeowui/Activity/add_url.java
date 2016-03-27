@@ -2,9 +2,11 @@ package com.example.riteshdesai.yeowui.Activity;
 
 import android.app.ActionBar;
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.MenuItem;
 import android.widget.EditText;
 
 import com.example.riteshdesai.yeowui.R;
@@ -20,12 +22,20 @@ public class add_url extends AppCompatActivity {
     private String mProviderName;
 
     @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        NavUtils.navigateUpFromSameTask(this);
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_url);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Add new domain");
 
 
